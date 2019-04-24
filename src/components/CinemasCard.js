@@ -3,29 +3,28 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components/native';
 import theme from '../theme';
 
-const TheatersCard = ({ cityName, cinemas }) => (
+const TheatersCard = ({ cityName, cinemas, onCinemaPress }) => (
   <Container>
     <Header>
-      <HeaderText>
-        {cityName}
-      </HeaderText>
+      <HeaderText>{cityName}</HeaderText>
     </Header>
     {cinemas.map(cinema => (
-      <CinemaListItem key={cinema.id}>
-        <CinemaText>
-          {cinema.name}
-        </CinemaText>
+      <CinemaListItem key={cinema.id} onPress={() => onCinemaPress(cinema)}>
+        <CinemaText>{cinema.name}</CinemaText>
       </CinemaListItem>
     ))}
   </Container>
 );
 
 TheatersCard.propTypes = {
-  cityName: PropTypes.string.isRequired,
-  cinemas: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    name: PropTypes.string,
-  }))
+  cityName: PropTypes.string,
+  cinemas: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string,
+    }),
+  ),
+  onCinemaPress: PropTypes.func.isRequired,
 };
 
 TheatersCard.defaultProps = {
@@ -34,13 +33,14 @@ TheatersCard.defaultProps = {
 };
 
 const Container = styled.View`
-  background-color: rgba(255,255,255,0.05);
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: ${theme.getHeightValue(20)};
 `;
 
 const Header = styled.View`
   width: 100%;
   height: ${theme.getHeightValue(33)};
-  background-color: #E52A3B;
+  background-color: #e52a3b;
   padding: 0 ${theme.getWidthValue(12)}px;
   justify-content: center;
 `;

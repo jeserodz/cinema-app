@@ -1,9 +1,8 @@
 import React from 'react';
-import CinemasScreen from './src/screens/CinemasScreen';
-import CinemaScreen from './src/screens/CinemaScreen';
+import Routes from './src/routes';
 
 const App = () => (
-  <CinemaScreen />
+  <Routes />
 );
 
 export default App;

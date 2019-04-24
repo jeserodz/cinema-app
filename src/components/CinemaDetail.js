@@ -10,7 +10,7 @@ const CinemaDetail = ({ icon, text }) => (
   </Container>
 );
 
-CinemaDetail.propaTypes = {
+CinemaDetail.propTypes = {
   icon: PropTypes.any.isRequired,
   text: PropTypes.string.isRequired,
 };
