@@ -23,6 +23,7 @@
 		1D83F72DF63F41FDA8B0AF76 /* Asap-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E31F67885A3B42AAACC96374 /* Asap-Bold.ttf */; };
 		2305EB63F0F741CC93A51CCE /* Asap-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED10CF4D2B59414196E42BE8 /* Asap-Medium.ttf */; };
 		54D34F1EEE694CB8A2C7A1FD /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 897BFCA882B946798EC8AF32 /* libRNGestureHandler.a */; };
+		57EA77E73D2048FF97CF464F /* libSplashScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F83B5CBB0F64F81B04A21F1 /* libSplashScreen.a */; };
 		6AA2B43F5E3C44BCB9E8C279 /* Asap-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5148D64D103547469D3F80BB /* Asap-BoldItalic.ttf */; };
 		72446C7A21074C6D8AF1548B /* Asap-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD2CA92FB90D43E087323AD3 /* Asap-SemiBoldItalic.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
@@ -308,6 +309,13 @@
 			remoteGlobalIDString = B5C32A36220C603B000FFB8D;
 			remoteInfo = "RNGestureHandler-tvOS";
 		};
+		C6E8D25D2278AE2C00335AA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 268CDBFA91DB4A5F9506DA75 /* SplashScreen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D7682761D8E76B80014119E;
+			remoteInfo = SplashScreen;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -329,12 +337,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cinema/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		22C2370A82A64FFF8DF762D4 /* Asap-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Asap-MediumItalic.ttf"; path = "../src/assets/fonts/Asap-MediumItalic.ttf"; sourceTree = "<group>"; };
+		268CDBFA91DB4A5F9506DA75 /* SplashScreen.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SplashScreen.xcodeproj; path = "../node_modules/react-native-splash-screen/ios/SplashScreen.xcodeproj"; sourceTree = "<group>"; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD9A5BEA9594CAB8450B534 /* Asap-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Asap-Regular.ttf"; path = "../src/assets/fonts/Asap-Regular.ttf"; sourceTree = "<group>"; };
 		5148D64D103547469D3F80BB /* Asap-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Asap-BoldItalic.ttf"; path = "../src/assets/fonts/Asap-BoldItalic.ttf"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		616FB25B2DA3495B81DB879C /* Asap-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Asap-SemiBold.ttf"; path = "../src/assets/fonts/Asap-SemiBold.ttf"; sourceTree = "<group>"; };
 		68D57BE9AD4A4632819F495F /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; };
+		6F83B5CBB0F64F81B04A21F1 /* libSplashScreen.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSplashScreen.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		897BFCA882B946798EC8AF32 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = "<group>"; };
@@ -367,6 +377,7 @@
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				54D34F1EEE694CB8A2C7A1FD /* libRNGestureHandler.a in Frameworks */,
+				57EA77E73D2048FF97CF464F /* libSplashScreen.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +558,7 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				A3B05FC317D64FC2B2878D5C /* RNGestureHandler.xcodeproj */,
+				268CDBFA91DB4A5F9506DA75 /* SplashScreen.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -598,6 +610,7 @@
 			children = (
 				897BFCA882B946798EC8AF32 /* libRNGestureHandler.a */,
 				68D57BE9AD4A4632819F495F /* libRNGestureHandler-tvOS.a */,
+				6F83B5CBB0F64F81B04A21F1 /* libSplashScreen.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -607,6 +620,14 @@
 			children = (
 				C68785DB226F46300089D9A8 /* libRNGestureHandler.a */,
 				C68785DD226F46300089D9A8 /* libRNGestureHandler-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E8D25A2278AE2C00335AA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8D25E2278AE2C00335AA7 /* libSplashScreen.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -709,6 +730,10 @@
 				{
 					ProductGroup = C68785D6226F46300089D9A8 /* Products */;
 					ProjectRef = A3B05FC317D64FC2B2878D5C /* RNGestureHandler.xcodeproj */;
+				},
+				{
+					ProductGroup = C6E8D25A2278AE2C00335AA7 /* Products */;
+					ProjectRef = 268CDBFA91DB4A5F9506DA75 /* SplashScreen.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -992,6 +1017,13 @@
 			remoteRef = C68785DC226F46300089D9A8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		C6E8D25E2278AE2C00335AA7 /* libSplashScreen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSplashScreen.a;
+			remoteRef = C6E8D25D2278AE2C00335AA7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1054,9 +1086,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = Cinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Cinema\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1078,9 +1115,14 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-gesture-handler/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
 				);
 				INFOPLIST_FILE = Cinema/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Cinema\"",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
